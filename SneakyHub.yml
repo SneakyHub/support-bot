@@ -1,0 +1,115 @@
+server_id: 825699580779823125
+config:
+  prefix: .
+  clear_commands: false
+channel_groups:
+- channels:
+  - 883879788777988136
+  - 883878795608735784
+  mentions:
+    ping:
+      reaction:
+      - 👋
+      response:
+      - I see I was pinged.
+    mention:
+      reaction:
+      - 👋
+      response:
+      - ""
+  commands:
+  - command: dash
+    response:
+    - Here is our dashboard url! https://dash.sneakyhub.com/
+    
+  - command: panel
+    response:
+    - Here is our panel url! https://panel.sneakyhub.com/
+    
+  - command: status
+    response:
+    - Here is our status url! https://status.sneakyhub.com/
+  keywords:
+  - keyword: fire
+    reaction:
+    - "🔥"
+    response:
+    - "oh no fire!! 🔥🔥🔥🔥🔥"
+    
+  - keyword: ping sneaky
+    reaction:
+    - ""
+    response:
+    - "If you ping sneaky you'll most likely be ignored due to working him working 12 hours a day. It is okay to ping him but only do it once if you do it more than once then don't be surprised if you are kicked out of the server or banned."
+
+  - keyword: shutdown
+    reaction:
+    - ""
+    response:
+    - "SneakyHub will never shutdown as long as the money is there we won't be going anywhere."
+
+  - keyword: vote
+    reaction:
+    - ""
+    response:
+    - Here is our voting urls! https://discords.com/servers/sneaky, https://top.gg/servers/825699580779823125/vote and https://disboard.org/server/825699580779823125
+    
+  - keyword: dash
+    reaction:
+    - ""
+    response:
+    - Here is our dashboard url! https://dash.sneakyhub.com/
+    
+  - keyword: panel
+    reaction:
+    - ""
+    response:
+    - Here is our panel url! https://panel.sneakyhub.com/
+    
+  - keyword: 999
+    reaction:
+    - ""
+    response:
+    - "999 represents taking whatever ill, whatever bad situation, whatever struggle you're going through and turning it into something positive to push yourself forward. - Juice Wrld"
+    
+  - keyword: fivem
+    reaction:
+    - "🔥"
+    response:
+    - "We do NOT support FiveM any questions, issues or anything relating to FiveM will be ignored completely. Please go and ask elsewhere. Thank you!"
+    
+  - keyword: upload folders
+    reaction:
+    - ""
+    response:
+    - "use an sftp client like Filezila and connect to your SFTP server via the details in `settings tab`. Then you can directly upload folders."
+    
+  - keyword: upload a folder
+    reaction:
+    - ""
+    response:
+    - "use an sftp client like Filezila and connect to your SFTP server via the details in `settings tab`. Then you can directly upload folders."
+    
+  - keyword: earn
+    reaction:
+    - ""
+    response:
+    - "In order to gain access to the <#883879788777988136> You will need to have an account on our dashboard. Then login.. You need to go to the `Profile` area in your dashboard https://dash.sneakyhub.com/ (It's in the top right) Then you need to sync your discord account with the dashboard. Then you'll be automatically given the Registered role. This means our discord then opens up and you are able to do more within our discord!" .
+  parsing:
+    image:
+      filetypes:
+      - png
+      - jpg
+      sites:
+      - name: pastebin
+        url: 'https://pastebin.com/'
+        format: 'https://pastebin.com/raw/&filename&'
+      - name: hastebin
+        url: 'https://hastebin.com/'
+        format: 'https://hastebin.com/raw/&filename&'
+permissions:
+- group: admin
+filters:
+- term: a bad word
+  reason:
+  - the message was removed because it had 'a bad word' in it
