@@ -46,7 +46,7 @@ channel_groups:
     reaction:
     - ""
     response:
-    - "SneakyHub will never shutdown as long as the money is there we won't be going anywhere."
+    - "SneakyHub will never shutdown as long as the money is there, we won't be going anywhere."
 
   - keyword: vote
     reaction:
@@ -94,7 +94,7 @@ channel_groups:
     reaction:
     - ""
     response:
-    - "In order to gain access to the <#883879788777988136> You will need to have an account on our dashboard. Then login.. You need to go to the `Profile` area in your dashboard https://dash.sneakyhub.com/ (It's in the top right) Then you need to sync your discord account with the dashboard. Then you'll be automatically given the Registered role. This means our discord then opens up and you are able to do more within our discord!" .
+    - "In order to gain access to <#883879788777988136>, you will need to have an account on our dashboard, login to it, then you need to go to the `Profile` area in your dashboard https://dash.sneakyhub.com/ (It's in the top right). Then you need to sync your discord account with the dashboard. Then you'll be automatically given the Registered role. This means our discord then opens up and you are able to do more within our discord!" .
   parsing:
     image:
       filetypes:
