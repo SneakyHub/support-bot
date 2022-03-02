@@ -1,0 +1,8 @@
+config:
+  token: token
+  game: Supporting Noobs
+  dm_response:
+    reaction:
+    - ":heart:"
+    response:
+    - ":heart:"
